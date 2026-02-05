@@ -65,8 +65,11 @@ The `Prediction.py` script demonstrates how to use the provided models to make p
 ### Acknowledgments
 We appreciate the CESMD Strong Motion Database for providing the earthquake response data used in this project.
 
+Note on code availability: This repository currently provides the inference/prediction code and example inputs for reproducing the reported predictions. The full training and data-preprocessing pipeline is temporarily withheld to protect intellectual property. These materials will be publicly released after an appropriate embargo period following paper acceptance and completion of associated patent/project procedures.
+
 ### Contact
 If you have any questions or need further assistance, feel free to contact the author:
 **Qingle Cheng**
 
 Email: chengql94@163.com
+
