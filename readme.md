@@ -36,7 +36,7 @@ The `model` folder contains pre-trained AI models for predicting three key metri
 
 ### Input Data
 - **`example_input_data.csv`**: A sample input file used for predictions. It contains data from 10 buildings with measured earthquake responses. The dataset is sourced from the **CESMD Strong Motion Database**, and we express our gratitude for their data support.
-- **`Information of the measured building data.csv`**: Provides the basic attributes of the 10 buildings, along with mainshock and aftershock information.
+- **`Information of the measured building data.csv`**: Provides the basic attributes of the 10 buildings, along with mainshock and aftershock information. The “Earthquake event ID” follows the CESMD convention and corresponds to the preferred USGS event ID including the network code (e.g., preferred USGS event ID 37904927 with network code CI is recorded as CI37904927).
 
 ### Prediction Script
 The `Prediction.py` script demonstrates how to use the provided models to make predictions. The script:
@@ -68,4 +68,5 @@ We appreciate the CESMD Strong Motion Database for providing the earthquake resp
 ### Contact
 If you have any questions or need further assistance, feel free to contact the author:
 **Qingle Cheng**
+
 Email: chengql94@163.com
